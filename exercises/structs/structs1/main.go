@@ -1,15 +1,16 @@
 // structs1
 // Make me compile!
 //
-// I AM NOT DONE
 package main
 
 import "fmt"
 
 type Person struct {
-
+ Name string
+	Age int
 }
 
 func main() {
-	fmt.Printf("Person %s and age %d", person.name, person.age)
+	person := Person{Name:"Adam", Age:21}
+	fmt.Printf("Person %s and age %d", person.Name, person.Age)
 }
